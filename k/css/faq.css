@@ -1,0 +1,60 @@
+/*white footer consistency*/
+.index{
+  background-color: white;
+}
+
+footer p {
+  color: black;
+}
+
+footer p a {
+  color: black;
+}
+/*customized FAQ CSS*/
+.faq-header {
+  padding: 2.5em;
+}
+
+h1,
+.faq-header h1 {
+  text-align: center;
+}
+
+h1 {
+  padding-top: 0.3em;
+}
+
+/*FAQ customization*/
+.question-collapse {
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+.question-collapse:hover,
+.question-collapse:active  {
+  background-color: black;
+  color: white;
+}
+
+
+.question-collapse,
+.question-collapse + input:checked + div {
+  display: block;
+  padding: .5em;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.question-collapse + input {
+  display: none;
+}
+
+.question-collapse + input + div {
+  display: none;
+}
+
+.stickyfoot {
+  padding-top: 3em;
+}

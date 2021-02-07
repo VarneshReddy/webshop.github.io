@@ -1,0 +1,49 @@
+.index{
+  background-color: white;
+}
+
+footer p {
+  color: black;
+}
+
+footer p a {
+  color: black;
+}
+
+.about-page {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.about-frank {
+  display: block;
+}
+
+.main-image {
+  float: right;
+  display: 30%;
+  width: 15em;
+  padding-left: 5px;
+}
+
+.main-info {
+  margin: 10px 0px;
+}
+
+.about-singer {
+  width: 7em;
+  float: right;
+  border-radius: 50%;
+  display: 20%;
+  padding-left: 5px;
+}
+
+.contact-frank {
+  text-align: left;
+}
+
+.contact-us {
+  width: 1.5em;
+  padding: .25em .25em 0 .25em;
+}
